@@ -1,7 +1,7 @@
 <template>
     <main>
         <section class="wrapper">
-            <h1 class="raleway-bold fs-32">Kunder & Uppdrag</h1>
+            <h1 class="raleway-bold fs-38">Kunder & Uppdrag</h1>
             <div class="textWrapper">
                 <h4 class="raleway-medium">AkzoNobel Eka Chemicals - Bohus</h4>
                 <hr />
@@ -86,7 +86,7 @@
 <style scoped>
     .wrapper {
         width: 1100px;
-        margin: 60px auto 65px auto;
+        margin: 80px auto 80px auto;
 
     }
     .wrapper h1 {

@@ -8,7 +8,7 @@
     <div class="imgPicWrapper">
      <div class="innerWrapper1">
        <div class="text roboto">
-        <h3 class="raleway-medium">Holalmandfoad</h3>
+        <h3 class="raleway-medium fs-27">Holalmandfoad</h3>
         <p> Vi utför nyproduktion, reprarationer och underhåll inom bland annat petrokemi- och processindustrin. Vi har väl genomarbetade HSE- och kvalitetssystem som vi målmedvetet arbetar efter.</p>
        </div>
        <img class="img1" src="../assets/weld2.jpg" alt="weld2" />
@@ -18,7 +18,7 @@
       <div class="innerWrapper">
       <img class="img2" src="../assets/weld3.jpg" alt="weld3" />
       <div class="text roboto reverse">
-        <h3 class="raleway-medium">Holalmandfoad</h3>
+        <h3 class="raleway-medium fs-27">Holalmandfoad</h3>
         <p> Det vi tror gör oss speciella är att vi för en tät dialog med kunder under projekt för att kunna hitta lösningar på eventuella problem som kan uppstå. Det känns viktigt för oss att påvisa ett starkt engagemang för att driva kvalitativa och kostnadseffektiva projekt.</p>
       </div>
       </div>

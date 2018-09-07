@@ -4,8 +4,13 @@
     margin: 0;
     color: #1a1a1a
 }
-.fs-32 {
-    font-size: 32px;
+.fs-38 {
+    font-size: 38px !important;
+    color: #d5322d;
+}
+.fs-27 {
+    font-size: 27px !important;
+    color: #d5322d;
 }
 .mb-80 {
     margin-bottom: 80px !important;
