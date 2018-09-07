@@ -9,8 +9,9 @@
                 <hr />
             </div>
         <div class="langSwitch">
-            <router-link to="/sv/">Svenska </router-link> |
-            <router-link to="/en/"> English</router-link>
+            <router-link tag="p" class="roboto-light" to="/sv/">Svenska</router-link>
+            <p class="roboto-light"> | </p>
+            <router-link tag="p" class="roboto-light" to="/en/">   English</router-link>
         </div>
         </div>
     </footer>
@@ -27,6 +28,9 @@ export default Vue.component("Footer", component);
 <style scoped>
 footer {
   position: relative;
+}
+.langSwitch p {
+    padding: 0 3px;
 }
 .wrapper {
   width: 1100px;

@@ -6,8 +6,8 @@
                 <router-link class="routerLink raleway-medium" to="/">Home</router-link>
                 <router-link class="routerLink raleway-medium" to="/about">About us</router-link>
                 <router-link class="routerLink raleway-medium" to="/projects">Customers / Projects</router-link>
-                <router-link class="routerLink raleway-medium" to="/quality">Quality</router-link>
                 <router-link class="routerLink raleway-medium" to="/hse">HSE</router-link>
+                <router-link class="routerLink raleway-medium" to="/quality">Quality</router-link>
                 <router-link class="routerLink raleway-medium" to="/contact">Contact</router-link>
         </div>
         </div>
@@ -41,7 +41,7 @@
 .menu {
     display: flex;
     justify-content: center;
-    box-shadow: 0 7px 42px -20px #000;
+    box-shadow: 0 0px 49px -21px #000;
 }
 
 .wrapperWrapper {

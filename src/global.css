@@ -4,7 +4,9 @@
     margin: 0;
     color: #1a1a1a
 }
-
+.fs-32 {
+    font-size: 32px;
+}
 .mb-80 {
     margin-bottom: 80px !important;
 }

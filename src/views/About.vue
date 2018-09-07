@@ -1,6 +1,6 @@
 
 <template>
-  <section class="about">
+  <main class="about">
     <section class="vidGroup">
       <div class="video">
         <video controls="" preload="none" poster="../assets/wpw-logo.jpg">
@@ -39,7 +39,7 @@
       </div>
     </div>
     </section>
-  </section>
+  </main>
 </template>
 <style scoped type="text/css">
 h2{

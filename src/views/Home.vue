@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <main class="home">
     <div class="bg">
       <div class="filter">
       </div>
@@ -24,7 +24,7 @@
       </div>
     </div>
 </div>
-  </div>
+  </main>
 </template>
 
 <script>
