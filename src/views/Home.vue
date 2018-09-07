@@ -6,7 +6,7 @@
     </div>
 <div class="wrappilo">
     <div class="imgPicWrapper">
-     <div class="innerWrapper">
+     <div class="innerWrapper1">
        <div class="text roboto">
         <h3 class="raleway-medium">Holalmandfoad</h3>
         <p> Vi utför nyproduktion, reprarationer och underhåll inom bland annat petrokemi- och processindustrin. Vi har väl genomarbetade HSE- och kvalitetssystem som vi målmedvetet arbetar efter.</p>
@@ -14,18 +14,14 @@
        <img class="img1" src="../assets/weld2.jpg" alt="weld2" />
      </div>
     </div>
-    <div class="imgPicWrapper">
+    <div class="imgPicWrapper mb-80">
       <div class="innerWrapper">
       <img class="img2" src="../assets/weld3.jpg" alt="weld3" />
-      <div class="text roboto">
+      <div class="text roboto reverse">
         <h3 class="raleway-medium">Holalmandfoad</h3>
         <p> Det vi tror gör oss speciella är att vi för en tät dialog med kunder under projekt för att kunna hitta lösningar på eventuella problem som kan uppstå. Det känns viktigt för oss att påvisa ett starkt engagemang för att driva kvalitativa och kostnadseffektiva projekt.</p>
       </div>
       </div>
-    </div>
-    <div class="textWrapper">
-      <h2 class="raleway-medium">Where Performance, Quality and Safety Come Together.</h2>
-      <hr />
     </div>
 </div>
   </div>
@@ -44,27 +40,10 @@ h3 {
 }
 .home {
 }
-hr {
-  border: 0;
-  width: 100%;
-  display: inline-block;
-  height: 1px;
-  margin-top: 5px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0)
-  );
-}
-.textWrapper {
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  width: 1100px;
-  margin-top: 40px;
-  justify-content: center;
-  align-items: center;
+
+
+.reverse {
+    padding: 0 0 0 40px;
 }
 
 .text {
@@ -73,21 +52,34 @@ hr {
   justify-content: center;
   flex-direction: column;
 }
-.innerWrapper {
+.innerWrapper1{
   display: flex;
-  padding: 20px;
+    padding: 40px 0;
+}
+.innerWrapper {
+    display: flex;
 }
 
 .imgPicWrapper {
   width: 1100px;
   flex-direction: column;
   display: flex;
+    margin-top: 50px;
 }
 .img1 {
-  padding: 20px 20px 0 20px;
+    border-radius: 6px;
+    -webkit-box-shadow: 3px 3px 24px #dedaec;
+    box-shadow: 3px 3px 24px #dedaec;
+    -webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(12px,0,0);
+    transform: perspective(1000px) rotateY(-10deg) translate3d(12px,0,0);
+    margin-right: 24px;
 }
 .img2 {
-  padding: 0 20px 20px 20px;
+    border-radius: 6px;
+    -webkit-transform: perspective(1000px) rotateY(6deg) translate3d(-4px,0,0);
+    transform: perspective(1000px) rotateY(6deg) translate3d(-4px,0,0);
+    -webkit-box-shadow: 3px 3px 24px #dedaec;
+
 }
 
 .bg {
@@ -119,4 +111,25 @@ border-radius: 6px;
 box-shadow: 3px 3px 24px #dedaec;
 -webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(12px,0,0);
 transform: perspective(1000px) rotateY(-10deg) translate3d(12px,0,0);
+
+
+
+background: linear-gradient(45deg,#7853bd,#9d67bb);
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+left: -100%;
+bottom: 0;
+display: block;
+width: 300%;
+height: 100%;
+-webkit-transform: rotate(-6deg);
+transform: rotate(-6deg);
+
+
+
+
 */
+
+

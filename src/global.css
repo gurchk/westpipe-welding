@@ -5,6 +5,12 @@
     color: #1a1a1a
 }
 
+.mb-80 {
+    margin-bottom: 80px !important;
+}
+#body {
+    overflow-x: hidden;
+}
 ::-webkit-scrollbar {
     width: 7px;
     height: 14px;
@@ -61,7 +67,7 @@
 
 .raleway-bold {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.2px;
 }

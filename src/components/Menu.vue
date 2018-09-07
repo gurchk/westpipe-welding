@@ -1,5 +1,5 @@
 <template>
-    <div class="menu">
+    <header class="menu">
         <div class="wrapperWrapper">
             <img class="logo" src="../assets/West-Pipe-Welding.png" alt="logo" height="100" width="350"/>
             <div class="wrapper">
@@ -11,7 +11,7 @@
                 <router-link class="routerLink raleway-medium" to="/contact">Contact</router-link>
         </div>
         </div>
-    </div>
+    </header>
 </template>
 
 <script src="./Menu.js">
@@ -24,7 +24,7 @@
     color: #f9f9f9;
 }
 .routerLink:hover {
-    color: #272727;
+    color: #efec46;
     transition: 0.4s;
 }
 .wrapper {
