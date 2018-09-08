@@ -63,11 +63,11 @@
                 <hr />
             </div>
             <div class="textWrapper">
-                <h4 class="raleway-medium">Perstorp Oxo AB, Stenungsund</h4>
+                <h4 class="raleway-medium">Perstorp Oxo AB - Stenungsund</h4>
                 <hr />
             </div>
             <div class="textWrapper">
-                <h4 class="raleway-medium">LNG Scangas, Lysekil</h4>
+                <h4 class="raleway-medium">LNG Scangas - Lysekil</h4>
                 <hr />
             </div>
         </section>
