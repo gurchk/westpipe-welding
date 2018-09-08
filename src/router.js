@@ -33,6 +33,11 @@ export default new Router({
       path: "/quality",
       name: "quality",
       component: () => import("./views/Quality.vue")
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: () => import("./views/Contact.vue")
     }
   ]
 });
