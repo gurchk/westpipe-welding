@@ -5,7 +5,7 @@
                 <div class="innerWrapper">
                     <img src="../assets/wpw-logo.jpg" />
                     <img id="logoText" src="../assets/West-Pipe-Welding.png" />
-                    <h3 class="raleway-medium">Where Performance, Quality and Safety Come Together.</h3>
+                    <h3 class="raleway-medium">Där prestanda, kvalitet och säkerhet kommer tillsammans.</h3>
                 </div>
             </div>
             <div class="right">

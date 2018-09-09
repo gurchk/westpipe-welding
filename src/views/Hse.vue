@@ -3,22 +3,22 @@
             <h1 class="raleway-bold fs-38">HSE</h1>
         <section class="wrapper">
             <div class="textIcon first">
-                <i class="fas fa-heart"></i>
-                <h2 class="raleway-medium fs-27">Health</h2>
+                <i class="fas fa-heart heart"></i>
+                <h2 class="raleway-medium fs-27 heart">Health</h2>
                 <p class="roboto">
                     Vi har i dagsläget ingen certifiering inom något kvalitet- eller miljösystem.
                     Men vi arbetar målmedvetet och har precis samma synsätt som alla seriösa företag - nolltolerans mot olyckor. </p>
             </div>
             <div class="textIcon second">
                 <i class="fas fa-industry"></i>
-                <h2 class="raleway-medium fs-27">Safety</h2>
+                <h2 class="raleway-medium fs-27 guccigrey">Safety</h2>
                 <p class="roboto">Att säkerheten alltid skall stå i centrum i samtliga av våra åtaganden är för oss en självklarhet.
                     Våra medarbetare skall ha den kunskapen som krävs för att utföra ett säkert arbete.
                     Vare sig det rör sig om en lokal säkerhetskurs eller en utbildning för hantering av specialverktyg och utrustning</p>
             </div>
             <div class="textIcon third">
-                <i class="fas fa-leaf"></i>
-                <h2 class="raleway-medium fs-27">Enviroment</h2>
+                <i class="fas fa-leaf leaf"></i>
+                <h2 class="raleway-medium fs-27 leaf">Enviroment</h2>
                 <p class="roboto">
                     Vi tror att med en god arbetsmiljö kan man förhindra många av de tillbud och olyckor som sker ute på arbetsplatserna.
                     Det pågår således inom vår organisation ett systematiskt miljöarbete.
@@ -37,6 +37,16 @@ export default Vue.component("Hse", component);
 </script>
 
 <style scoped>
+    .guccigrey {
+        color: #3d3d3d !important;
+    }
+    .heart {
+        color: #d5322d !important;
+    }
+    .leaf {
+        color: #67cc46 !important;
+    }
+
 .fas {
   text-align: center;
   margin: 0 auto;

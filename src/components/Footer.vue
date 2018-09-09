@@ -5,8 +5,15 @@
 
         <p class="roboto-light">© 2012 - WP Welding </p>
             <div class="textWrapper">
-                <h2 class="raleway-medium">Where Performance, Quality and Safety Come Together.</h2>
+                <h2 class="raleway-medium">
+                    Där prestanda, kvalitet och säkerhet kommer tillsammans.
+                    </h2>
                 <hr />
+
+                <!--
+
+                Where Performance, Quality and Safety Come Together.
+                -->
             </div>
         <div class="langSwitch">
             <router-link tag="p" class="roboto-light" to="/sv/">Svenska</router-link>

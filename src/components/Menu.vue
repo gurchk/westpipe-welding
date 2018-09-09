@@ -3,12 +3,12 @@
         <div class="wrapperWrapper">
             <img class="logo" src="../assets/West-Pipe-Welding.png" alt="logo" height="100" width="350"/>
             <div class="wrapper">
-                <router-link class="routerLink raleway-medium" to="/">Home</router-link>
-                <router-link class="routerLink raleway-medium" to="/about">About us</router-link>
-                <router-link class="routerLink raleway-medium" to="/projects">Customers / Projects</router-link>
+                <router-link class="routerLink raleway-medium" to="/">Hem</router-link>
+                <router-link class="routerLink raleway-medium" to="/about">Verksamhet</router-link>
+                <router-link class="routerLink raleway-medium" to="/projects">Kunder & Projekt</router-link>
                 <router-link class="routerLink raleway-medium" to="/hse">HSE</router-link>
-                <router-link class="routerLink raleway-medium" to="/quality">Quality</router-link>
-                <router-link class="routerLink raleway-medium" to="/contact">Contact</router-link>
+                <router-link class="routerLink raleway-medium" to="/quality">Kvalitet</router-link>
+                <router-link class="routerLink raleway-medium" to="/contact">Kontakt</router-link>
         </div>
         </div>
     </header>
@@ -22,6 +22,9 @@
     text-decoration: none;
     padding: 0 12px;
     color: #f9f9f9;
+}
+.router-link-exact-active {
+    color: #efec46
 }
 .routerLink:hover {
     color: #efec46;
