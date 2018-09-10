@@ -5,28 +5,28 @@
                 <div class="innerWrapper">
                     <img src="../assets/wpw-logo.jpg" />
                     <img id="logoText" src="../assets/West-Pipe-Welding.png" />
-                    <h3 class="raleway-medium">Där prestanda, kvalitet och säkerhet kommer tillsammans.</h3>
+                    <h3 class="raleway-medium">Where Performance, Quality and Safety Come Together.</h3>
                 </div>
             </div>
             <div class="right">
-                <h2 class="raleway-bold">Kontakt</h2>
+                <h2 class="raleway-bold">Contact</h2>
                 <article class="articleF">
-                <h3 class="roboto-light">Företagsuppgifter</h3>
+                <h3 class="roboto-light">Company related</h3>
                 <p class="roboto">
                     WP Welding AB<br/>
-                    Org nr: 	556796-1718<br/>
-                    Adress:
+                    VAT no: 	SE556796171801 <br/>
+                    Address:
                     Box 134,
-                    453 23 Lysekil<br/>
-                    E-post: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#119;&#112;&#119;&#101;&#108;&#100;&#105;&#110;&#103;&#46;&#115;&#101;">info@wpwelding.se</a></p>
+                    SE-453 23 Lysekil<br/>
+                    E-mail: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#119;&#112;&#119;&#101;&#108;&#100;&#105;&#110;&#103;&#46;&#115;&#101;">info@wpwelding.se</a></p>
                 </article>
                 <article>
-                    <h3 class="roboto-light">Kontaktuppgifter</h3>
+                    <h3 class="roboto-light">Personal contact</h3>
                     <p class="roboto">
                         John-John Choukair <br />
-                        Telefon: 	0523-29 30 20 <br />
-                        Mobil: 	070-990 09 25 <br />
-                        E-post: <a href="mailto:&#106;&#111;&#104;&#110;&#45;&#106;&#111;&#104;&#110;&#64;&#119;&#112;&#119;&#101;&#108;&#100;&#105;&#110;&#103;&#46;&#115;&#101;">john-john@wpwelding.se</a>
+                        Telephone: 	+46(0)523-29 30 20  <br />
+                        Cellphone: 	 	+46(0)70-990 09 25  <br />
+                        E-mail: <a href="mailto:&#106;&#111;&#104;&#110;&#45;&#106;&#111;&#104;&#110;&#64;&#119;&#112;&#119;&#101;&#108;&#100;&#105;&#110;&#103;&#46;&#115;&#101;">john-john@wpwelding.se</a>
                     </p>
                 </article>
             </div>
@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "Contact"
+  name: "ContactEn"
 };
 </script>
 <style scoped>

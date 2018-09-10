@@ -16,9 +16,9 @@
                 -->
             </div>
         <div class="langSwitch">
-            <router-link tag="p" class="roboto-light" to="/sv/">Svenska</router-link>
+            <router-link  tag="p" class="roboto-light link" to="/sv/">Svenska</router-link>
             <p class="roboto-light"> | </p>
-            <router-link tag="p" class="roboto-light" to="/en/">   English</router-link>
+            <router-link  tag="p" class="roboto-light link" to="/en/">   English</router-link>
         </div>
         </div>
     </footer>
@@ -27,18 +27,37 @@
 <script>
 import Vue from "vue";
 
-const component = Vue.extend({});
+const component = Vue.extend({
+  data: function() {
+    return {
+      english: ""
+    };
+  },
+  watch: {
+    $route(to, from) {
+      this.english = to.path.slice(0, 4) === "/en/";
+    }
+  }
+});
 
 export default Vue.component("Footer", component);
 </script>
 
 <style scoped>
 footer {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
 }
 .langSwitch p {
-    padding: 0 3px;
+  padding: 0 3px;
 }
+
+.link:hover {
+  cursor: pointer;
+}
+
 .wrapper {
   width: 1100px;
   height: 80px;

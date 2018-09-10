@@ -4,7 +4,7 @@
     <div class="bg">
       <div class="filter">
           <img id="entryImg" src="../assets/wpw-logo.png" />
-          <h1 class="raleway-bold" id="entryText">Där prestanda, kvalitet och säkerhet kommer tillsammans.</h1>
+          <h1 class="raleway-bold" id="entryText">Where Performance, Quality and Safety Come Together.</h1>
           <i id="lilChev" class="fas fa-chevron-down"></i>
       </div>
     </div>
@@ -12,9 +12,8 @@
     <div class="imgPicWrapper">
      <div class="innerWrapper1">
        <div class="text roboto">
-        <h3 class="raleway-medium fs-27">Det vi är bäst på</h3>
-        <p> Vi utför nyproduktion, reprarationer och underhåll inom bland annat petrokemi- och processindustrin.
-            Vi har väl genomarbetade HSE- och kvalitetssystem som vi målmedvetet arbetar efter.</p>
+        <h3 class="raleway-medium fs-27">What we are best at</h3>
+        <p> We carry out projects, repairs and maintenance in the petrochemical industry as well as other process industries.</p>
        </div>
        <img class="img1" src="../assets/weld2.jpg" alt="weld2" />
      </div>
@@ -23,29 +22,31 @@
       <div class="innerWrapper">
       <img class="img2" src="../assets/weld3.jpg" alt="weld3" />
       <div class="text roboto reverse">
-        <h3 class="raleway-medium fs-27">Varför är vi speciella ?</h3>
-        <p> Det vi tror gör oss speciella är att vi för en tät dialog med kunder under
-            projekt för att kunna hitta lösningar på eventuella problem som kan uppstå.
-            Det känns viktigt för oss att påvisa ett starkt engagemang för att driva kvalitativa och kostnadseffektiva projekt.
-           <br/> Vi är alltid tillgängliga för att kunna svara på dina frågor och kommer gärna i <router-link to="/contact">kontakt</router-link> med just dig för att presentera oss ytterligare!</p>
+        <h3 class="raleway-medium fs-27">Why are we special ?</h3>
+        <p> What we believe makes us special is the close dialog we try to keep with our clients. This gives us the possibility to resolve any issues that might occur.
+            It is of outmost importance for us to fully engage in our projects in order to perform them with high quality making them cost efficient.
+            <br />
+            We are always available to answer any of you questions. Please <router-link to="/contact">contact</router-link> us in order to get further presentation of WP Welding!
+        </p>
       </div>
       </div>
     </div>
 </div>
       </section>
+
   </main>
 </template>
 
 <script>
 // @ is an alias to /
 
-import { swedish } from "../config";
 import Vue from "vue";
 
 const component = Vue.extend({
+
 });
 
-export default Vue.component("home", component);
+export default Vue.component("homeEn", component);
 </script>
 <style scoped>
 h3 {

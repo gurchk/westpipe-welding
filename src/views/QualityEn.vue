@@ -3,9 +3,9 @@
     <main class="about">
         <section class="imgGroup">
             <div class="text">
-                <h2 class="raleway-bold">Kvalitet</h2>
-                <p class="roboto"> I dessa tider ställs ständigt höga kvalitetskrav på företag inom vår branch.
-                    Och det med all rätt, vi är väl medvetna om att oförutsedda stopp är mycket kostsamma och på många sätt förödande för våra kunder.</p>
+                <h2 class="raleway-bold">Quality</h2>
+                <p class="roboto"> A high demand on quality comes with our business. We are well aware of the issues a client could be facing.
+                    Both in production loss or even worse, an accident involving personnel.</p>
             </div>
             <div class="image">
                 <img src="../assets/weld1.jpg" />
@@ -16,26 +16,27 @@
                 <div class="textWrapper">
                     <h3 class="raleway-medium">
                         <i class="fas fa-tasks"></i>
-                        Kvalitetssystem
+                        Qualitysystem
                     </h3>
-                    <p class="roboto"> Det är viktigt för oss att kunna leverera våra tjänster tillsammans med ett väl fungerande kvalitetssystem.
-                        Det blir en trygghet för oss såväl som för kunden att en fullständig spårbarhet uppnås för material och utförda arbeten.</p>
+                    <p class="roboto"> It is important for us to - along with our services - be able to provide a working quality plan.
+                        This to ensure the quality of the performed work both for ourselves as well as for the client.
+                        The quality plan describes how to achieve a satisfactory traceability for material, welders and performed work.</p>
                 </div>
                 <div class="textWrapper">
                     <h3 class="raleway-medium">
                         <i class="fas fa-check"></i>
-                        Beprövat
+                        Tested
                     </h3>
-                    <p class="roboto">  Vårt kvalitetssystem är väl utarbetat, och beprövat.
-                        Vi kan enkelt implementera och anpassa det för att passa just ditt projekt. Det är viktigt för oss att kunden enkelt kan skaffa
-                        sig information om hur arbetet framskrider och att försäkra sig om att ställda krav efterlevs.</p>
+                    <p class="roboto">  Our quality plan is developed during a long period and tested in several projects.
+                        We can easily implement and adapt it to suite any project. It is our intention to make it possible for the client to quickly receive the information needed.
+                        And to feel certain that stipulated demands are followed. </p>
                 </div>
                 <div class="textWrapper">
                     <h3 class="raleway-medium">
                         <i class="fas fa-award"></i>
-                        Certifierade
+                        Certified
                     </h3>
-                    <p class="roboto"> Företaget är Iso Certifierade mot 1090-1 och 3834-2 </p>
+                    <p class="roboto"> The company is Iso certified against 1090-1 and 3834-2 </p>
                 </div>
             </div>
         </section>

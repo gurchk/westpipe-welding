@@ -9,8 +9,9 @@
       </div>
       <div class="text">
         <h2 class="raleway-bold">Verksamhet</h2>
-        <p class="roboto">WP Welding är ett företag dit du kan vända dig för såväl mindre projekt som totalentreprenader inom industrin. Vi arbetar mycket gentemot petrokemisk- och processteknisk industri och är där väl orienterade.
-          Helst av allt ser vi att få en <router-link to="/contact">kontakt</router-link> med er för att berätta mer och lämna referenser på tidigare utförda arbeten.</p>
+        <p class="roboto">WP Welding is a company to which you can turn for smaller as well as turn-key projects.
+           We are working mostly against the petrochemical industry and are well
+           oriented on the refineries in Sweden. Most of all we would like to have <router-link to="/en/contact">contact</router-link> with you in order to present us further and give references on earlier projects.</p>
       </div>
     </section>
     <section class="threeWrapper">
@@ -18,24 +19,23 @@
       <div class="textWrapper">
         <h3 class="raleway-medium">
           <i class="fas fa-chart-line"></i>
-          Orienterade
+          Oriented
         </h3>
-        <p class="roboto"> Vårt mål är som att du som kund skall kunna beställa en tjänst av oss, enkelt kunna följa tillverkningsprocessen och ha ett snabbt och effektivt montage.</p>
+        <p class="roboto"> Our goal is that when you as a customer order a service from us easily could follow the manufacturing process. And have a quick and efficient erection on site.</p>
       </div>
       <div class="textWrapper">
         <h3 class="raleway-medium">
           <i class="fas fa-file-signature"></i>
-          Licensierade
+          Licensed
         </h3>
-        <p class="roboto"> Vi har licensierade svetsare och rörmontörer som utför kvalificerade rör-, stål- och apparatmontage.
-          Med den mångåriga kunskap som finns bland våra anställda har vi god erfarenhet av både små och stora jobb.</p>
+        <p class="roboto"> We have licensed welders and pipe fitters with years of experience. We can carry out qualified pipe-, steel-and equipment installations. Throughout the years we have been involved in both small and very large projects.</p>
       </div>
       <div class="textWrapper">
         <h3 class="raleway-medium">
           <i class="fas fa-dollar-sign"></i>
-          Korta installationsperioder
+          Short installation periods
         </h3>
-        <p class="roboto"> Med korta installationsperioder och god kvalitet på utfört arbete spar du pengar!</p>
+        <p class="roboto"> With short installation periods and good quality of performed work you will save money! </p>
       </div>
     </div>
     </section>

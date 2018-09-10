@@ -2,19 +2,43 @@
     <header class="menu">
         <div class="wrapperWrapper">
             <img class="logo" src="../assets/West-Pipe-Welding.png" alt="logo" height="100" width="350"/>
-            <div class="wrapper">
-                <router-link class="routerLink raleway-medium" to="/">Hem</router-link>
-                <router-link class="routerLink raleway-medium" to="/about">Verksamhet</router-link>
-                <router-link class="routerLink raleway-medium" to="/projects">Kunder & Projekt</router-link>
-                <router-link class="routerLink raleway-medium" to="/hse">HSE</router-link>
-                <router-link class="routerLink raleway-medium" to="/quality">Kvalitet</router-link>
-                <router-link class="routerLink raleway-medium" to="/contact">Kontakt</router-link>
+            <div class="wrapper" v-if="!english">
+                <router-link class="routerLink raleway-medium" to="/sv/">Hem</router-link>
+                <router-link class="routerLink raleway-medium" to="/sv/about">Verksamhet</router-link>
+                <router-link class="routerLink raleway-medium" to="/sv/projects">Kunder & Projekt</router-link>
+                <router-link class="routerLink raleway-medium" to="/sv/hse">HSE</router-link>
+                <router-link class="routerLink raleway-medium" to="/sv/quality">Kvalitet</router-link>
+                <router-link class="routerLink raleway-medium" to="/sv/contact">Kontakt</router-link>
         </div>
+            <div class="wrapper" v-else>
+                <router-link class="routerLink raleway-medium" to="/en/">Home</router-link>
+                <router-link class="routerLink raleway-medium" to="/en/about">About us</router-link>
+                <router-link class="routerLink raleway-medium" to="/en/projects">Customers & Projects</router-link>
+                <router-link class="routerLink raleway-medium" to="/en/hse">HSE</router-link>
+                <router-link class="routerLink raleway-medium" to="/en/quality">Quality</router-link>
+                <router-link class="routerLink raleway-medium" to="/en/contact">Contact</router-link>
+            </div>
         </div>
     </header>
 </template>
 
-<script src="./Menu.js">
+<script>
+    import Vue from "vue";
+
+    const component = Vue.extend({
+        data: function() {
+            return {
+                english: "",
+            }
+        },
+        watch: {
+            '$route'(to, from) {
+                this.english = to.path.slice(0,4) === "/en/";
+            }
+        }
+    });
+
+    export default Vue.component("Menu", component);
 </script>
 
 <style scoped>

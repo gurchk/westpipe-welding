@@ -5,24 +5,23 @@
             <div class="textIcon first">
                 <i class="fas fa-heart heart"></i>
                 <h2 class="raleway-medium fs-27 heart">Health</h2>
-                <p class="roboto">
-                    Vi har i dagsläget ingen certifiering inom något kvalitet- eller miljösystem.
-                    Men vi arbetar målmedvetet och har precis samma synsätt som alla seriösa företag - nolltolerans mot olyckor. </p>
+                <p class="roboto"> We have for the moment no official certification in quality or environmental systems.
+                    But we are working systematically, always improving and have the same approach as any serious company – a zero tolerance against accidents. </p>
             </div>
             <div class="textIcon second">
                 <i class="fas fa-industry"></i>
                 <h2 class="raleway-medium fs-27 guccigrey">Safety</h2>
-                <p class="roboto">Att säkerheten alltid skall stå i centrum i samtliga av våra åtaganden är för oss en självklarhet.
-                    Våra medarbetare skall ha den kunskapen som krävs för att utföra ett säkert arbete.
-                    Vare sig det rör sig om en lokal säkerhetskurs eller en utbildning för hantering av specialverktyg och utrustning</p>
+                <p class="roboto">Health and safety is always the most important guidelines in all of our projects. Our employees shall have
+                    the knowledge that is needed to carry out the work in a safe and efficient way.
+                    This could mean a local safety course or maybe an education in handling a special tool or equipment.</p>
             </div>
             <div class="textIcon third">
                 <i class="fas fa-leaf leaf"></i>
                 <h2 class="raleway-medium fs-27 leaf">Enviroment</h2>
                 <p class="roboto">
-                    Vi tror att med en god arbetsmiljö kan man förhindra många av de tillbud och olyckor som sker ute på arbetsplatserna.
-                    Det pågår således inom vår organisation ett systematiskt miljöarbete.
-                    För att utveckla oss och växa som företag inom branchen är detta ett måste.</p>
+                    We believe that with a good work environment you could prevent many of the incidents and accidents that occur.
+                    To achieve this we are always trying
+                    to approve ourselves and learn from earlier experiences and projects. In order to improve and grow as a company this is a must.</p>
             </div>
         </section>
     </main>
@@ -33,7 +32,7 @@ import Vue from "vue";
 
 const component = Vue.extend({});
 
-export default Vue.component("Hse", component);
+export default Vue.component("HseEn", component);
 </script>
 
 <style scoped>
@@ -69,6 +68,7 @@ export default Vue.component("Hse", component);
     margin-bottom: 30px;
     position: relative;
     padding: 0 10px;
+
 }
 .textIcon h2 {
     margin: 5px 0;

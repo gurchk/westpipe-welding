@@ -5,13 +5,17 @@ Vue.use(Router);
 
 export default new Router({
   routes: [
+      {
+          path: '/',
+          redirect: { path: "/sv/" }
+      },
     {
-      path: "/",
+      path: "/sv/",
       name: "home",
       component: Home
     },
     {
-      path: "/about",
+      path: "/sv/about",
       name: "about",
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
@@ -19,25 +23,60 @@ export default new Router({
       component: () => import("./views/About.vue")
     },
     {
-      path: "/projects",
+      path: "/sv/projects",
       name: "projects",
       component: () => import("./views/Projects.vue")
     },
 
     {
-      path: "/hse",
+      path: "/sv/hse",
       name: "hse",
       component: () => import("./views/Hse.vue")
     },
     {
-      path: "/quality",
+      path: "/sv/quality",
       name: "quality",
       component: () => import("./views/Quality.vue")
     },
     {
-      path: "/contact",
+      path: "/sv/contact",
       name: "contact",
       component: () => import("./views/Contact.vue")
-    }
+    },
+
+      {
+          path: "/en/",
+          name: "homeEn",
+          component: () => import("./views/HomeEn.vue")
+      },
+      {
+          path: "/en/about",
+          name: "aboutEn",
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import("./views/AboutEn.vue")
+      },
+      {
+          path: "/en/projects",
+          name: "projectsEn",
+          component: () => import("./views/ProjectsEn.vue")
+      },
+
+      {
+          path: "/en/hse",
+          name: "hseEn",
+          component: () => import("./views/HseEn.vue")
+      },
+      {
+          path: "/en/quality",
+          name: "qualityEn",
+          component: () => import("./views/QualityEn.vue")
+      },
+      {
+          path: "/en/contact",
+          name: "contactEn",
+          component: () => import("./views/ContactEn.vue")
+      },
   ]
 });
