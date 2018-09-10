@@ -8,7 +8,7 @@
                     Both in production loss or even worse, an accident involving personnel.</p>
             </div>
             <div class="image">
-                <img src="../assets/weld1.jpg" />
+                <img src="../assets/weld1.jpg" alt="weld1"/>
             </div>
         </section>
         <section class="threeWrapper">

@@ -88,4 +88,17 @@ hr {
     rgba(0, 0, 0, 0)
   );
 }
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+    @media screen and (max-width: 900px) {
+        .wrapper {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            height: auto;
+        }
+    }
 </style>

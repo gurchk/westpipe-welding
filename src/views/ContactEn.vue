@@ -3,8 +3,8 @@
         <section class="wrapper">
             <div class="left">
                 <div class="innerWrapper">
-                    <img src="../assets/wpw-logo.jpg" />
-                    <img id="logoText" src="../assets/West-Pipe-Welding.png" />
+                    <img src="../assets/wpw-logo.jpg" alt="logo"/>
+                    <img id="logoText" src="../assets/West-Pipe-Welding.png" alt="logo2"/>
                     <h3 class="raleway-medium">Where Performance, Quality and Safety Come Together.</h3>
                 </div>
             </div>

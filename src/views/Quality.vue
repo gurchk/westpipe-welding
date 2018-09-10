@@ -8,7 +8,7 @@
                     Och det med all rätt, vi är väl medvetna om att oförutsedda stopp är mycket kostsamma och på många sätt förödande för våra kunder.</p>
             </div>
             <div class="image">
-                <img src="../assets/weld1.jpg" />
+                <img src="../assets/weld1.jpg" alt="weld1"/>
             </div>
         </section>
         <section class="threeWrapper">

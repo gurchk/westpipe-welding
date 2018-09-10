@@ -3,7 +3,7 @@
       <section>
     <div class="bg">
       <div class="filter">
-          <img id="entryImg" src="../assets/wpw-logo.png" />
+          <img id="entryImg" src="../assets/wpw-logo.png" alt="wow-logo" />
           <h1 class="raleway-bold" id="entryText">Where Performance, Quality and Safety Come Together.</h1>
           <i id="lilChev" class="fas fa-chevron-down"></i>
       </div>
@@ -42,9 +42,7 @@
 
 import Vue from "vue";
 
-const component = Vue.extend({
-
-});
+const component = Vue.extend({});
 
 export default Vue.component("homeEn", component);
 </script>
@@ -139,32 +137,47 @@ h3 {
   color: #f9f9f9;
   transition: 100ms;
 }
+@media screen and (max-width: 1100px) {
+    .wrappilo *{
+        width: 100%;
+
+    }
+    .wrappilo {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+  #entryImg {
+    width: 30%;
+  }
+  #entryText {
+    font-size: 24px;
+    text-align: center;
+  }
+  .wrappilo {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .wrappilo * {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .innerWrapper {
+    flex-direction: column-reverse;
+  }
+  .innerWrapper1 {
+    flex-direction: column;
+  }
+  .img1 {
+    -webkit-transform: none;
+    transform: none;
+  }
+  .img2 {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
 </style>
 
-
-/*
-border-radius: 6px;
--webkit-box-shadow: 3px 3px 24px #dedaec;
-box-shadow: 3px 3px 24px #dedaec;
--webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(12px,0,0);
-transform: perspective(1000px) rotateY(-10deg) translate3d(12px,0,0);
-
-
-
-background: linear-gradient(45deg,#7853bd,#9d67bb);
-content: "";
-position: absolute;
-z-index: -1;
-top: 0;
-left: -100%;
-bottom: 0;
-display: block;
-width: 300%;
-height: 100%;
--webkit-transform: rotate(-6deg);
-transform: rotate(-6deg);
-
-
-
-
-*/

@@ -87,7 +87,7 @@ h3 {
 .textWrapper p {
   color: #fefefe;
 }
-.video {
+.video  {
   position: relative;
   width: 45%;
 }
@@ -95,6 +95,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-pack: justify;
   }
@@ -102,7 +103,7 @@ h3 {
     position: relative;
     z-index: 500;
     margin-top: 120px;
-    padding-bottom: 240px
+    padding-bottom: 240px;
   }
   .threeLocos::after {
 
@@ -122,11 +123,48 @@ h3 {
   }
   .threeLocos > .textWrapper {
     width: 30%;
+    min-width: 220px;
+
   }
   .textWrapper h3  {
     text-align: left !important;
   }
 
+@media screen and (max-width: 1100px) {
+  .about {
+    width: 100%;
+    padding: 20px;
+  }
+  .vidGroup {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .video video {
+    margin: 0 auto;
+    transform: none;
+    -webkit-transform: none;
+    align-self: center;
+  }
+  .video {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .threeLocos::after {
+    height: 190%;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .threeLocos::after {
+    height: 140%;
+  }
+  .threeLocos {
+    justify-content: space-around;
+  }
+  .threeLocos p {
+    padding: 6px 0 14px 0;
+  }
+}
 
 
 

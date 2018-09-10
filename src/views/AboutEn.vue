@@ -127,7 +127,41 @@ h3 {
     text-align: left !important;
   }
 
+@media screen and (max-width: 1100px) {
+  .about {
+    width: 100%;
+    padding: 20px;
+  }
+  .vidGroup {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .video video {
+    margin: 0 auto;
+    transform: none;
+    -webkit-transform: none;
+    align-self: center;
+  }
+  .video {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .threeLocos::after {
+    height: 190%;
+  }
 
+}
+@media screen and (max-width: 700px) {
+  .threeLocos::after {
+    height: 140%;
+  }
+  .threeLocos {
+    justify-content: space-around;
+  }
+  .threeLocos p {
+    padding: 6px 0 14px 0;
+  }
+}
 
 
 </style>
