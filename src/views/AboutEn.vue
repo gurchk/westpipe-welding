@@ -144,6 +144,7 @@ h3 {
   }
   .video {
     align-self: center;
+    width: 60%;
     margin-bottom: 20px;
   }
   .threeLocos::after {
@@ -160,6 +161,12 @@ h3 {
   }
   .threeLocos p {
     padding: 6px 0 14px 0;
+  }
+  .video {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
   }
 }
 

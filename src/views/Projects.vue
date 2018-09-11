@@ -87,7 +87,11 @@
     .wrapper {
         width: 1100px;
         margin: 80px auto 80px auto;
+        display: block;
 
+    }
+    main {
+        padding-bottom: 80px;
     }
     .wrapper h1 {
         text-align: center;
@@ -102,6 +106,12 @@
     }
     .textWrapper h4 {
         margin-bottom: 3px;
+    }
+    @media screen and (max-width: 1100px) {
+        .wrapper {
+            width: 100%;
+            padding: 0 20px;
+        }
     }
 
 </style>
