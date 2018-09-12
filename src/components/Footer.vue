@@ -49,6 +49,7 @@ footer {
   bottom: 0;
   display: block;
   width: 100%;
+    z-index: 1000
 }
 .langSwitch p {
   padding: 0 3px;

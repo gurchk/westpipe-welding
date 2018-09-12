@@ -46,42 +46,50 @@ export default Vue.component("HseEn", component);
         color: #67cc46 !important;
     }
 
-.fas {
-  text-align: center;
-  margin: 0 auto;
-    align-self: center;
-    font-size: 72px;
-    color: #3d3d3d;
-}
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-    width: 1100px;
-  justify-content: center;
-    margin:  0 auto 110px auto;
-}
-.textIcon {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
-    position: relative;
-    padding: 0 10px;
+    .fas {
+        text-align: center;
+        margin: 0 auto;
+        align-self: center;
+        font-size: 72px;
+        color: #3d3d3d;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1100px;
+        justify-content: center;
+        margin:  0 auto 0 auto;
+        padding-bottom: 133px;
 
-}
-.textIcon h2 {
-    margin: 5px 0;
-}
-h1 {
-    text-align: center;
-    margin: 80px auto 60px auto;
-    text-decoration: underline;
-}
-.first {
-}
+    }
+    .textIcon {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        position: relative;
+        min-width: 250px;
+        padding: 0 10px;
+    }
+    .textIcon h2 {
+        margin: 5px 0;
+    }
+    h1 {
+        text-align: center;
+        margin: 80px auto 60px auto;
+        text-decoration: underline;
+    }
+    .first {
+    }
 
-.second {
-}
+    .second {
+    }
+    @media screen and (max-width: 1100px) {
+        .wrapper {
+            width: 100%;
+        }
+    }
 
 </style>

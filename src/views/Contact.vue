@@ -54,7 +54,8 @@ h3 {
   display: flex;
   justify-content: space-around;
   width: 1100px;
-  margin: 80px auto 80px auto;
+  margin: 80px auto 0 auto;
+  padding-bottom: 150px;
 }
 h2 {
   margin-bottom: 10px;
@@ -92,5 +93,11 @@ h2 {
   align-self: center;
   -webkit-box-shadow: 3px 3px 24px #dedaec;
   border-radius: 6px;
+}
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    width: 100%;
+
+  }
 }
 </style>

@@ -43,97 +43,129 @@
     </main>
 </template>
 <style scoped type="text/css">
-    h2{
-        margin-bottom: 10px;
-        font-size: 34px !important;
-        color: #d5322d;
-    }
-    h3 {
-        font-size: 22px !important;
-        text-align: center;
-        margin-bottom: 10px;
-        color: #efc;;
+h2 {
+  margin-bottom: 10px;
+  font-size: 34px !important;
+  color: #d5322d;
+}
+h3 {
+  font-size: 22px !important;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #efc;
+}
+.fas {
+  color: #efec46;
+}
+.about {
+  width: 1100px;
+  margin: 80px auto 0 auto;
+  position: relative;
+}
 
-    }
-    .fas {
-        color: #efec46;
-    }
-    .about {
-        width: 1100px;
-        margin: 80px auto 0  auto;
-        position: relative;
-    }
+.image img {
+  width: 100%;
+  border-radius: 6px;
+  -webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(24px, 0, 0);
+  transform: perspective(1000px) rotateY(-10deg) translate3d(24px, 0, 0);
+  -webkit-box-shadow: -3px 3px 24px #afa8c7;
+  box-shadow: -3px 3px 24px #afa8c7;
+  /* -o-object-fit: cover;*/
+  /* object-fit: cover;*/
+}
 
-    .image img {
-        width: 100%;
-        border-radius: 6px;
-        -webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(24px,0,0);
-        transform: perspective(1000px) rotateY(-10deg) translate3d(24px,0,0);
-        -webkit-box-shadow: -3px 3px 24px #afa8c7;
-        box-shadow: -3px 3px 24px #afa8c7;
-        /* -o-object-fit: cover;*/
-        /* object-fit: cover;*/
-    }
+.imgGroup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imgGroup > div {
+  min-width: 300px;
+}
+.text {
+  width: 40%;
+  align-self: center;
+}
 
-    .imgGroup {
-        display: flex;
-        justify-content: space-around;
-    }
-    .text {
-        width: 40%;
-        align-self: center;
-    }
-
-    .textWrapper p {
-        color: #fefefe;
-    }
-    .image {
-        position: relative;
-        width: 27%;
-
-    }
-    .image img {
-        width: 100%;
-        border-radius: 13px
-    }
-    .threeLocos {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 80px;
-        position: relative;
-        -webkit-box-pack: justify;
-    }
-    .threeWrapper {
-        position: relative;
-        z-index: 500;
-        margin-top: 120px;
-        padding-bottom: 240px;
-    }
-    .threeLocos::after {
-
-        background: linear-gradient(155deg,#e0a2a2, #d5322d);
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -76px;
-        left: -100%;
-        bottom: 0;
-        display: block;
-        width: 300%;
-        height: 190%;
-        -webkit-transform: rotate(1.5deg);
-        transform: rotate(1.5deg);
-
-    }
-    .threeLocos > .textWrapper {
-        width: 30%;
-    }
-    .textWrapper h3  {
-        text-align: left !important;
-    }
-
+.textWrapper p {
+  color: #fefefe;
+}
+.image {
+  position: relative;
+  width: 27%;
+}
+.image img {
+  width: 100%;
+  border-radius: 13px;
+}
+.threeLocos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  position: relative;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+}
+.threeWrapper {
+  position: relative;
+  z-index: 500;
+  margin-top: 120px;
+  padding-bottom: 240px;
+}
+.threeLocos::after {
+  background: linear-gradient(155deg, #e0a2a2, #d5322d);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -76px;
+  left: -100%;
+  bottom: 0;
+  display: block;
+  width: 300%;
+  height: 190%;
+  -webkit-transform: rotate(1.5deg);
+  transform: rotate(1.5deg);
+}
+.threeLocos > .textWrapper {
+  width: 30%;
+  min-width: 210px;
+}
+.textWrapper h3 {
+  text-align: left !important;
+}
+@media screen and (max-width: 1100px) {
+  .about {
+    width: 100%;
+  }
+  .imgGroup {
+    padding: 0 20px;
+  }
+  .threeLocos {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .imgGroup > .image img {
+    transform: none;
+    -webkit-transform: none;
+  }
+  .imgGroup > .text {
+    padding: 0 0 20px 0;
+  }
+  .threeLocos {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .textWrapper {
+    padding: 10px;
+  }
+  .threeLocos::after {
+    height: 145%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .threeLocos::after {
+    height: 120%;
+  }
+}
 </style>
-
-
-
-

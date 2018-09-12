@@ -59,15 +59,19 @@ export default Vue.component("Hse", component);
   flex-wrap: wrap;
     width: 1100px;
   justify-content: center;
-    margin:  0 auto 110px auto;
+    margin:  0 auto 0 auto;
+    padding-bottom: 133px;
+
 }
 .textIcon {
     width: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     position: relative;
+    min-width: 250px;
     padding: 0 10px;
 }
 .textIcon h2 {
@@ -83,5 +87,9 @@ h1 {
 
 .second {
 }
-
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        width: 100%;
+    }
+}
 </style>
