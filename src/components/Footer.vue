@@ -5,9 +5,14 @@
 
         <p class="roboto-light">© 2012 - WP Welding </p>
             <div class="textWrapper">
-                <h2 class="raleway-medium">
+                <h2 v-if="!english" class="raleway-medium">
+
                     Där prestanda, kvalitet och säkerhet kommer tillsammans.
                     </h2>
+                <h2 v-else class="raleway-medium">
+                    Where Performance, Quality and Safety Come Together.
+
+                </h2>
                 <hr />
 
                 <!--

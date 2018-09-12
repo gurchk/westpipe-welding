@@ -40,57 +40,74 @@ export default {
 };
 </script>
 <style scoped>
-.articleF {
-  margin-bottom: 20px;
-}
-h3 {
-  font-size: 12px;
-  margin-top: 10px;
-}
-.right h3 {
-  margin-bottom: 5px;
-}
-.wrapper {
-  display: flex;
-  justify-content: space-around;
-  width: 1100px;
-  margin: 80px auto 80px auto;
-}
-h2 {
-  margin-bottom: 10px;
-  font-size: 34px !important;
-  color: #d5322d;
-}
-.left {
-  width: 40%;
-}
-.innerWrapper img:first-child {
-  width: 60%;
-}
-#logoText {
-  width: 100%;
-}
-.left .innerWrapper {
-  padding: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  /*
-  width: 100%;
-  -webkit-transform: perspective(1000px) rotateY(10deg) translate3d(24px, 0, 0);
-  transform: perspective(1000px) rotateY(10deg) translate3d(24px, 0, 0);
-*/
-}
-.right {
-  width: 40%;
-  padding: 30px;
-  /*
-    -webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(24px, 0, 0);
-  transform: perspective(1000px) rotateY(-10deg) translate3d(24px, 0, 0);
-*/
-  align-self: center;
-  -webkit-box-shadow: 3px 3px 24px #dedaec;
-  border-radius: 6px;
-}
+    .articleF {
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .right h3 {
+        margin-bottom: 5px;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 1100px;
+        margin: 80px auto 0 auto;
+        padding-bottom: 150px;
+    }
+    h2 {
+        margin-bottom: 10px;
+        font-size: 34px !important;
+        color: #d5322d;
+    }
+    .left {
+        width: 40%;
+    }
+    .innerWrapper img:first-child {
+        width: 60%;
+    }
+    #logoText {
+        width: 100%;
+    }
+    .left .innerWrapper {
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        /*
+        width: 100%;
+        -webkit-transform: perspective(1000px) rotateY(10deg) translate3d(24px, 0, 0);
+        transform: perspective(1000px) rotateY(10deg) translate3d(24px, 0, 0);
+      */
+    }
+    .right {
+        width: 40%;
+        padding: 30px;
+        /*
+          -webkit-transform: perspective(1000px) rotateY(-10deg) translate3d(24px, 0, 0);
+        transform: perspective(1000px) rotateY(-10deg) translate3d(24px, 0, 0);
+      */
+        align-self: center;
+        -webkit-box-shadow: 3px 3px 24px #dedaec;
+        border-radius: 6px;
+    }
+    @media screen and (max-width: 1100px) {
+        .wrapper {
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapper > div {
+            width: 80%;
+            padding: 20px;
+        }
+    }
 </style>

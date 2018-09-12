@@ -10,7 +10,7 @@
       <div class="text">
         <h2 class="raleway-bold">Verksamhet</h2>
         <p class="roboto">WP Welding är ett företag dit du kan vända dig för såväl mindre projekt som totalentreprenader inom industrin. Vi arbetar mycket gentemot petrokemisk- och processteknisk industri och är där väl orienterade.
-          Helst av allt ser vi att få en <router-link to="/contact">kontakt</router-link> med er för att berätta mer och lämna referenser på tidigare utförda arbeten.</p>
+          Helst av allt ser vi att få en <router-link to="/sv/contact">kontakt</router-link> med er för att berätta mer och lämna referenser på tidigare utförda arbeten.</p>
       </div>
     </section>
     <section class="threeWrapper">

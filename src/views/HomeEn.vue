@@ -26,7 +26,7 @@
         <p> What we believe makes us special is the close dialog we try to keep with our clients. This gives us the possibility to resolve any issues that might occur.
             It is of outmost importance for us to fully engage in our projects in order to perform them with high quality making them cost efficient.
             <br />
-            We are always available to answer any of you questions. Please <router-link to="/contact">contact</router-link> us in order to get further presentation of WP Welding!
+            We are always available to answer any of you questions. Please <router-link to="/en/contact">contact</router-link> us in order to get further presentation of WP Welding!
         </p>
       </div>
       </div>

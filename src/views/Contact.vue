@@ -97,7 +97,17 @@ h2 {
 @media screen and (max-width: 1100px) {
   .wrapper {
     width: 100%;
-
   }
+}
+@media screen and (max-width: 700px) {
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper > div {
+        width: 80%;
+        padding: 20px;
+    }
 }
 </style>

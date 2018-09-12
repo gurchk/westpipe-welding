@@ -3,6 +3,43 @@
         <section class="wrapper">
             <h1 class="raleway-bold fs-38">Customers & Projects</h1>
             <div class="textWrapper">
+                <h4 class="raleway-medium">Volvo Bussar - Uddevalla</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">Irem</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">Uddevalla Energi</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">Stockholm Exergi AB</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">Skanska </h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">Maxgrepp Handrims AB</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">CS Maskin</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">Midroc Rodoverken</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">NMT Håby</h4>
+                <hr />
+            </div>
+
+            <div class="textWrapper">
                 <h4 class="raleway-medium">AkzoNobel Eka Chemicals - Bohus, Sweden</h4>
                 <hr />
             </div>
@@ -68,6 +105,10 @@
             </div>
             <div class="textWrapper">
                 <h4 class="raleway-medium">LNG Scangas - Lysekil, Sweden</h4>
+                <hr />
+            </div>
+            <div class="textWrapper">
+                <h4 class="raleway-medium">And many more...</h4>
                 <hr />
             </div>
         </section>

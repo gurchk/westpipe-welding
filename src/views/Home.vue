@@ -27,7 +27,7 @@
         <p> Det vi tror gör oss speciella är att vi för en tät dialog med kunder under
             projekt för att kunna hitta lösningar på eventuella problem som kan uppstå.
             Det känns viktigt för oss att påvisa ett starkt engagemang för att driva kvalitativa och kostnadseffektiva projekt.
-           <br/> Vi är alltid tillgängliga för att kunna svara på dina frågor och kommer gärna i <router-link to="/contact">kontakt</router-link> med just dig för att presentera oss ytterligare!</p>
+           <br/> Vi är alltid tillgängliga för att kunna svara på dina frågor och kommer gärna i <router-link to="/sv/contact">kontakt</router-link> med just dig för att presentera oss ytterligare!</p>
       </div>
       </div>
     </div>
