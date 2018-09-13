@@ -42,7 +42,7 @@
   </main>
 </template>
 <style scoped type="text/css">
-h2{
+h2 {
   margin-bottom: 10px;
   font-size: 34px !important;
   color: #d5322d;
