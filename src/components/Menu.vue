@@ -41,9 +41,11 @@ const component = Vue.extend({
     }
   },
   mounted() {
+    this.width = window.innerWidth;
     window.onresize = () => {
       this.width = window.innerWidth;
     };
+
   },
   watch: {
     $route(to, from) {
